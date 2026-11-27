@@ -1,0 +1,9 @@
+
+a = int(input("Enter first side: "))
+b = int(input("Enter second side: "))
+c = int(input("Enter third side: "))
+
+if a > 0 and b > 0 and c > 0 and a+b > c and b+c > a and a+c > b:
+    print("Valid triangle")
+else:
+    print("Invalid triangle")
